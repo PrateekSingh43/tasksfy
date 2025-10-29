@@ -1,4 +1,4 @@
-# My Project (e.g., Taskify)
+# My Project (e.g., Tasksfy)
 
 This is a monorepo for the Taskify project, built with Vite, React, Express, and Docusaurus.
 
