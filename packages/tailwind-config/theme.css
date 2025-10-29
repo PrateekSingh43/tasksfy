@@ -1,0 +1,14 @@
+:root,
+.light {
+  --bg-default: 255 255 255;
+  --bg-muted: 250 250 250;
+  /* ... all other light mode variables from dub.sh ... */
+  --content-error: 185 28 28;
+}
+
+.dark {
+  --bg-default: 0 0 0;
+  --bg-muted: 23 23 23;
+  /* ... all other dark mode variables from dub.sh ... */
+  --content-error: 254 226 226;
+}

@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "check-types": "turbo run check-types",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "eslint": "^9.7.0",
+    "prettier": "^3.3.3",
+    "turbo": "^2.0.7"
+  },
+  "packageManager": "pnpm@9.6.0",
+  "name": "with-vite"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@repo/ui",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./Header": "./src/Header.tsx",
+    "./Counter": "./src/Counter.tsx"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint \"src/**/*.tsx\"",
+    "typecheck": "tsc",
+    "check-types": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@types/react": "^18.3.3",
+    "eslint": "^9.7.0",
+    "react": "^18.3.1",
+    "typescript": "5.5.4"
+  }
+}

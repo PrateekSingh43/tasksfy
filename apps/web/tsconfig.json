@@ -1,0 +1,19 @@
+{
+  "extends": "@repo/typescript-config/vite.json",
+  "compilerOptions": {
+    "skipLibCheck": true,
+    // Add/Override these options specifically for Vite/React
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true
+  },
+  "include": ["src", "vite.config.ts"], // Ensure vite.config.ts is included
+  "exclude": ["node_modules", "dist"] 
+}

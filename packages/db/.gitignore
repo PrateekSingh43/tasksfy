@@ -1,0 +1,11 @@
+# --------------------
+# DB LOCAL IGNORES
+# --------------------
+
+# Environment (MUST be ignored locally)
+.env
+.env.cli
+
+# Build Outputs (for generated client code)
+dist/
+node_modules/

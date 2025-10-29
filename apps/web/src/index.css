@@ -1,0 +1,6 @@
+/* Make sure this path uses your package name */
+@import "@repo/tailwind-config/theme.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
